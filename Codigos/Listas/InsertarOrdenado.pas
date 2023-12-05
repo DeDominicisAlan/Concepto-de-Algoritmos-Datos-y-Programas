@@ -13,8 +13,8 @@ begin
 		act:=act^.sig;
 	end;
 	if(act=ant)then	//Al principio o lista vacia
-		l:=aux	
-		else
+	    l:=aux	
+	  else
 		ant^.sig:=aux;
 	aux^.sig:=act;
 end;
